@@ -16,3 +16,7 @@
 <br>
 31 Jan 2025 -> Assignmnet 7 completed
 <br>
+2 Feb 2025 ->Assignment 8 completed which consisted of class and object work (Access Modifiers)
+<br>
+4 Feb 2025 ->Assignment 9 completed which consisted of class and object work (this , static , final , instanceof  operator)
+<br>
