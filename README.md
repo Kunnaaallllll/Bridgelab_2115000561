@@ -1,8 +1,11 @@
 #Bridgelab_2115000561
 <br>
 19 Jan 2025 -> Covered Java fundamentals and basic syntax.
+<br>
                Solved an assignment based on Java basics.
+               <br>
                Learned Git branching and how to manipulate GitHub data using Git and Git Bash.
+               <br>
                Practiced cloning projects from open-source repositories to the local environment.
 <br>
 22 Jan 2025 -> Assignmnet 2 completed
