@@ -56,5 +56,8 @@ Learned the concept of Inheritance: Single Level, Multi Level, and Hierarchical 
 
 Date: 07-02-25
 Learned the concept of Multilevel Inheritance using Interface.
+
+Date: 08-02-25
+Learned the concept of Encapsulation, Polymorphism, Interface and Abstract Class and completed Assignment.
 </pre>
  
