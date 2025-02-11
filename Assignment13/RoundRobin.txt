@@ -1,0 +1,74 @@
+public class RoundRobin{
+    public static void main(String[] args){
+        Process head = null;
+        head = Process.addProcess(1, 8, 2, head);
+        head = Process.addProcess(2, 4, 1, head);
+        head = Process.addProcess(3, 9, 3, head);
+        head = Process.addProcess(4, 5, 2, head);
+        Process.simulateRoundRobin(head, 3);
+    }
+}
+class Process {
+    int processId;
+    int burstTime;
+    int priority;
+    Process next;
+
+    public Process(int processId, int burstTime, int priority){
+        this.processId = processId;
+        this.burstTime = burstTime;
+        this.priority = priority;
+        this.next = this;
+    }
+    public static Process addProcess(int processId, int burstTime, int priority, Process head){
+        Process newProcess = new Process(processId, burstTime, priority);
+        if (head == null){
+            return newProcess;
+        }
+        Process temp = head;
+        while (temp.next != head){
+            temp = temp.next;
+        }
+        temp.next = newProcess;
+        newProcess.next = head;
+        return head;
+    }
+
+    public static void simulateRoundRobin(Process head, int timeQuantum){
+        Process temp = head;
+        while (head != null) {
+            System.out.println("Executing Process: " + temp.processId);
+            if (temp.burstTime > timeQuantum) {
+                temp.burstTime -= timeQuantum;
+                temp = temp.next;
+            } else {
+                System.out.println("Process " + temp.processId + " completed execution");
+                head = removeProcess(temp.processId, head);
+                if (head == null) break;
+                temp = temp.next;
+            }
+        }
+    }
+    public static Process removeProcess(int processId, Process head){
+        if (head == null) return null;
+        Process temp = head, prev = null;
+        while (temp.processId != processId){
+            prev = temp;
+            temp = temp.next;
+            if (temp == head) return head;
+        }
+        if (temp == head && temp.next == head) return null;
+        if (temp == head) {
+            Process last = head;
+            while (last.next != head){
+                last = last.next;
+            }
+            head = head.next;
+            last.next = head;
+        } else {
+            prev.next = temp.next;
+        }
+        return head;
+    }
+}
+
