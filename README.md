@@ -59,5 +59,8 @@ Learned the concept of Multilevel Inheritance using Interface.
 
 Date: 08-02-25
 Learned the concept of Encapsulation, Polymorphism, Interface and Abstract Class and completed Assignment.
+
+Date: 11-02-25
+Learned the concept of Linked List and also some Data Structures and completed Assignment over Linked List.
 </pre>
  
