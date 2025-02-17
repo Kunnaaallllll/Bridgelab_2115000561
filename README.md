@@ -69,7 +69,10 @@ Learned About Data Structures Stack, Queue, HashMap, HashSet and completed some 
 Date:14-02-25
 Learned about various sorting techniques and practiced them by implementing concepts of these sorting techniques into questions.
 
-DAte: 15-02-2025
+Date: 15-02-2025
 Today i learned the basics of StringBuilder, StringBuffer, FileReader, InputStreamReader, Linear Search, Binary Search. Tried questions on them completed assignment including basic questions of these topic.
+
+Date: 17-02-25
+Learned to use data structures efficiently and about time complexitites (Tried to compare different time complexities by using different-different data structures)
 </pre>
  
