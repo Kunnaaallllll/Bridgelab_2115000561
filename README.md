@@ -74,5 +74,8 @@ Today i learned the basics of StringBuilder, StringBuffer, FileReader, InputStre
 
 Date: 17-02-25
 Learned to use data structures efficiently and about time complexitites (Tried to compare different time complexities by using different-different data structures)
+
+Date: 18-02-25
+Learned about java Generics and also done some question releted to java Generics and completed the assignment over Generics.
 </pre>
  
