@@ -17,7 +17,7 @@ public class UserRegistration {
 
     public static void main(String[] args) {
         try {
-            registerUser("Bhagyodaya", "mtrbhagyodayame@gmail.com", "Pass@1234");
+            registerUser("Kunal", "mtrkunalchaudhary.com", "Pass@1234");
             registerUser("BAC", "bac@gmai.com", "Pass123");
         } catch (IllegalArgumentException e) {
             System.out.println(e);
@@ -27,7 +27,7 @@ public class UserRegistration {
 class UserRegistrationTest {
     @Test
     void testValidUserRegistration() {
-        assertDoesNotThrow(() -> UserRegistration.registerUser("Bhagyodaya ", "mtrbhagyodayame@gmail.com", "Pass@1234"));
+        assertDoesNotThrow(() -> UserRegistration.registerUser("Kunal", "mtrkunalchaudhary@gmail.com", "Pass@1234"));
     }
 
     @Test
@@ -37,7 +37,7 @@ class UserRegistrationTest {
 
     @Test
     void testInvalidEmail() {
-        assertThrows(IllegalArgumentException.class, () -> UserRegistration.registerUser("Bhagyodaya", "", "Pass@1234"));
+        assertThrows(IllegalArgumentException.class, () -> UserRegistration.registerUser("Kunal", "", "Pass@1234"));
     }
 
     @Test
