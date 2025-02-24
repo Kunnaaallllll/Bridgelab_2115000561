@@ -77,5 +77,20 @@ Learned to use data structures efficiently and about time complexitites (Tried t
 
 Date: 18-02-25
 Learned about java Generics and also done some question releted to java Generics and completed the assignment over Generics.
+
+Date: 20-02-25
+Learned about java Collections(Map,ArrayList,LinkedList,Queue,Stack) and many more data structures that makes our tasks handling very easy also completed many questions releted to collections.
+
+Date: 21-02-25
+Streams: I have learnt about file handling and operations related to Streams. Also practiced many question related to Streams that halped me to understand how file handling actually works.
+Also completed Assignment over Streams and all the questions helped me to clear my concepts more.
+Also Today completed Assignment over Exceptions Today and that assignment was very Easy and consisted Questions over Basics of Exceptions.
+
+Date: 22-02-25
+Completed Assignment over Rejex And JUnit Aslo tried to understand the concepts of them.
+
+Date: 24-02-25
+Completed Assignment Over Annotations, Reflection and also learned about them likes basics of Annotations, Reflection and also today understand how JUnit works Actually.
+
 </pre>
  
